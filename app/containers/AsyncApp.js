@@ -71,7 +71,7 @@ class AsyncApp extends Component {
       return (
           <div className='loading'>
             <div className='loading-text'>Loading Chats</div>
-            <img className='loading-icon' href='/loading.gif' />
+            <img className='loading-icon' src='loading.gif' />
           </div>
       );
     }
